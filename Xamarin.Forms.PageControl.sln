@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.PageControl", "Xamarin.Forms.PageControl\Xamarin.Forms.PageControl.csproj", "{0D7AF9BC-BCC2-4073-B936-C4CADDC0FBBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7AF9BC-BCC2-4073-B936-C4CADDC0FBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7AF9BC-BCC2-4073-B936-C4CADDC0FBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7AF9BC-BCC2-4073-B936-C4CADDC0FBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7AF9BC-BCC2-4073-B936-C4CADDC0FBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E253F2D-0F10-43A2-B529-27B99C0A28A4}
+	EndGlobalSection
+EndGlobal
