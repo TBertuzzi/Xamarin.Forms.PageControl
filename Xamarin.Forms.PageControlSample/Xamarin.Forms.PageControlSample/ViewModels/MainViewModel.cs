@@ -57,24 +57,21 @@ namespace Xamarin.Forms.PageControlSample.ViewModels
             Screenshots = new ObservableCollection<Screenshot>();
 
             Screenshot screen = new Screenshot();
-            screen.Url = "";
+            screen.Url = ImageSource.FromResource("Xamarin.Forms.PageControlSample.ViewModels.Resources.Polly1.jpg");
             Screenshots.Add(screen);
 
             screen = new Screenshot();
-            screen.Url = "";
+            screen.Url = ImageSource.FromResource("Xamarin.Forms.PageControlSample.ViewModels.Resources.Polly2.jpg");
             Screenshots.Add(screen);
 
             screen = new Screenshot();
-            screen.Url = "";
+            screen.Url = ImageSource.FromResource("Xamarin.Forms.PageControlSample.ViewModels.Resources.Polly3.jpg");
             Screenshots.Add(screen);
 
             screen = new Screenshot();
-            screen.Url = "";
+            screen.Url = ImageSource.FromResource("Xamarin.Forms.PageControlSample.ViewModels.Resources.Polly4.jpg");
             Screenshots.Add(screen);
 
-            screen = new Screenshot();
-            screen.Url = "";
-            Screenshots.Add(screen);
 
 
         }
