@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Xamarin.Forms.PageControlSample.Models;
 
 namespace Xamarin.Forms.PageControlSample.ViewModels
 {
@@ -31,33 +33,50 @@ namespace Xamarin.Forms.PageControlSample.ViewModels
 
         #endregion
 
-        //public MultiSelectObservableCollection<User> Users { get; }
+        private int _position;
+        public int Position
+        {
+            get { return _position; }
+            set { SetProperty(ref _position, value); }
+        }
 
-        //public MainViewModel()
-        //{
-        //    Users = new MultiSelectObservableCollection<User>();
+        private bool _showIcons = false;
+        public bool ShowIcons
+        {
+            get { return _showIcons; }
+            set
+            {
+                SetProperty(ref _showIcons, value);
+            }
+        }
 
-        //    User user = new User();
-        //    user.Name = "Bertuzzi";
-        //    Users.Add(user);
+        public ObservableCollection<Screenshot> Screenshots { get; }
 
-        //    user = new User();
-        //    user.Name = "Bruna";
-        //    Users.Add(user);
+        public MainViewModel()
+        {
+            Screenshots = new ObservableCollection<Screenshot>();
 
-        //    user = new User();
-        //    user.Name = "Polly";
-        //    Users.Add(user);
+            Screenshot screen = new Screenshot();
+            screen.Url = "";
+            Screenshots.Add(screen);
 
-        //    user = new User();
-        //    user.Name = "Rodolfo";
-        //    Users.Add(user);
+            screen = new Screenshot();
+            screen.Url = "";
+            Screenshots.Add(screen);
 
-        //    user = new User();
-        //    user.Name = "Lester";
-        //    Users.Add(user);
+            screen = new Screenshot();
+            screen.Url = "";
+            Screenshots.Add(screen);
+
+            screen = new Screenshot();
+            screen.Url = "";
+            Screenshots.Add(screen);
+
+            screen = new Screenshot();
+            screen.Url = "";
+            Screenshots.Add(screen);
 
 
-        //}
+        }
     }
 }
