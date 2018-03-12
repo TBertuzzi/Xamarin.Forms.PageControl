@@ -15,6 +15,10 @@ namespace Xamarin.Forms.PageControlSample
 			InitializeComponent();
 
             this.BindingContext = new MainViewModel();
-		}
+
+            Xamarin.Forms.PageControl.PageControl a = new PageControl.PageControl();
+            a.ShowIndicator = true;
+
+        }
 	}
 }

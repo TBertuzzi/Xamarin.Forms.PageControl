@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.PageControlSa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.PageControlSample.UWP", "Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample.UWP\Xamarin.Forms.PageControlSample.UWP.csproj", "{45F2F749-BD3D-410D-A0B8-FB7AD5D8A0A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.PageControlSample", "Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample.csproj", "{CE947771-7987-4E43-BB29-12208ABB950D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.PageControlSample", "Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample.csproj", "{CE947771-7987-4E43-BB29-12208ABB950D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
