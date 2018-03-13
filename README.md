@@ -10,8 +10,9 @@ You can use any image in the paging control
 
 |Name|Info|
 | ------------------- | :------------------: |
-|PageControl|[![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue.svg)]
-(https://www.nuget.org/packages/Xamarin.Forms.PageControl/)|
+|PageControl|[![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue.svg)](https://www.nuget.org/packages/Xamarin.Forms.PageControl/)|
+
+
 
 **Platform Support**
 
