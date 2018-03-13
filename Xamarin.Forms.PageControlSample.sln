@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2002
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.PageControlSample.Android", "Xamarin.Forms.PageControlSample\Xamarin.Forms.PageControlSample.Android\Xamarin.Forms.PageControlSample.Android.csproj", "{6A4C7991-FE09-4C63-A8E2-5A81129D7916}"
 EndProject

@@ -13,6 +13,9 @@
     <PackageTags>xamarin xamarin.forms controls pagecontrol page carouselpage</PackageTags>
     <Description>A paging control in Xamarin.Forms. Can be used with carousel page.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

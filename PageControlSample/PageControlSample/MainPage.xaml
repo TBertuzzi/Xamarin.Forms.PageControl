@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PageControlSample"
+             x:Class="PageControlSample.MainPage" 
+              xmlns:ci="clr-namespace:Xamarin.Forms.PageControl;assembly=Xamarin.Forms.PageControl" 
+           Padding="0,20,0,0">
+
+    <StackLayout>
+        <Label Text="PageControl sample" />
+
+        <ci:PageControl ShowIndicator="{Binding ShowIcons}" IndicatorHeight="8" IndicatorWidth="8" UnselectedIndicator="unselected_circle.png" SelectedIndicator="selected_circle.png" Position="{Binding Position}" ItemsSource="{Binding Screenshots}" />
+
+        <Image Source="{Binding Image}"></Image>
+       
+    </StackLayout>
+
+</ContentPage>
