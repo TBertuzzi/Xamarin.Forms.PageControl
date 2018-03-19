@@ -6,6 +6,8 @@ You can use any image in the paging control
  
 ###### This is the component, works on iOS, Android and UWP.
 
+![](https://github.com/TBertuzzi/Xamarin.Forms.PageControl/blob/master/Resources/sample.png?raw=true)
+
 **NuGet**
 
 |Name|Info|
