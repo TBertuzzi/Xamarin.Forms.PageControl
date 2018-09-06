@@ -74,10 +74,10 @@ namespace Xamarin.Forms.PageControl
         public void Init(int position)
         {
 
-            if (UnselectedImageSource == null)
+            if (UnselectedImageSource == null && ! String.IsNullOrEmpty(UnselectedIndicator))
                 UnselectedImageSource = ImageSource.FromFile(UnselectedIndicator);
 
-            if (SelectedImageSource == null)
+            if (SelectedImageSource == null && ! String.IsNullOrEmpty(SelectedIndicator))
                 SelectedImageSource = ImageSource.FromFile(SelectedIndicator);
 
             if (_indicators.Children.Count > 0)
