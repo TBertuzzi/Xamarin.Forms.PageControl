@@ -12,7 +12,7 @@ You can use any image in the paging control
 
 |Name|Info|
 | ------------------- | :------------------: |
-|PageControl|[![NuGet](https://img.shields.io/badge/nuget-1.1.0-blue.svg)](https://www.nuget.org/packages/Xamarin.Forms.PageControl/)|
+|PageControl|[![NuGet](https://buildstats.info/nuget/Xamarin.Forms.PageControl)](https://www.nuget.org/packages/Xamarin.Forms.PageControl/)|
 |Build status|[![appveyor](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://ci.appveyor.com/project/ThiagoBertuzzi/xamarin-forms-pagecontrol/)|
 
 
