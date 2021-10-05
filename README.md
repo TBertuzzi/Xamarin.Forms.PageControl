@@ -4,7 +4,7 @@ use the iOS paging control with Xamarin.Forms
  
 You can use any image in the paging control
  
-###### This is the component, works on iOS, Android and UWP.
+###### This is the component, works on iOS and Android.
 
 ![](https://github.com/TBertuzzi/Xamarin.Forms.PageControl/blob/master/Resources/sample.png?raw=true)
 
@@ -13,7 +13,6 @@ You can use any image in the paging control
 |Name|Info|
 | ------------------- | :------------------: |
 |PageControl|[![NuGet](https://buildstats.info/nuget/Xamarin.Forms.PageControl)](https://www.nuget.org/packages/Xamarin.Forms.PageControl/)|
-|Build status|[![appveyor](https://img.shields.io/teamcity/codebetter/bt428.svg)](https://ci.appveyor.com/project/ThiagoBertuzzi/xamarin-forms-pagecontrol/)|
 
 
 
