@@ -62,6 +62,6 @@ Example :
 
 
 ```
-The complete example can be downloaded here: https://github.com/TBertuzzi/Xamarin.Forms.PageControl/tree/master/PageControlSample
+The complete example can be downloaded here: https://github.com/TBertuzzi/Xamarin.Forms.PageControl/tree/master/XFPageControlSample
 
 
